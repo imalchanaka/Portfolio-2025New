@@ -6,25 +6,29 @@ const SubHeroMain = () => {
    
 
       {/* Cards Section */}
-      <div className="flex flex-wrap items-center justify-center mt-4 gap-60">
-        <div className="bg-black text-white p-6 rounded-lg shadow-lg text-center w-52 border-orange border-[0.5px]">
-          <p className="text-xl font-semibold">Instagram</p>
-          <p className="text-2xl font-bold">2.8K+</p>
-          <p className="text-sm">Followers</p>
-        </div>
+      <div className="grid grid-cols-1 gap-6 px-4 mt-6 sm:grid-cols-3 md:grid-cols-3">
+  {/* Instagram */}
+  <div className="bg-black text-white p-2 rounded-lg shadow-lg text-center border-[1px] border-orange-500">
+    <p className="text-sm ">Instagram</p>
+    <p className="text-2xl font-bold text-orange-400">2.8K+</p>
+    <p className="text-sm text-gray-300">Followers</p>
+  </div>
 
-        <div className="bg-black text-white p-6 rounded-lg shadow-lg text-center w-52 border-blue-500 border-[0.5px]">
-          <p className="text-xl font-semibold">Facebook</p>
-          <p className="text-2xl font-bold">1.2K+</p>
-          <p className="text-sm">Followers</p>
-        </div>
+  {/* Facebook */}
+  <div className="bg-black text-white p-2 rounded-lg shadow-lg text-center border-[1px] border-blue-500">
+    <p className="text-sm ">Facebook</p>
+    <p className="text-3xl font-bold text-blue-400">1.2K+</p>
+    <p className="text-sm text-gray-300">Followers</p>
+  </div>
 
-        <div className="bg-black text-white p-6 rounded-lg shadow-lg text-center w-52 border-blue-700 border-[0.5px]">
-          <p className="text-xl font-semibold">LinkedIn</p>
-          <p className="text-2xl font-bold">1.3K+</p>
-          <p className="text-sm">Connections</p>
-        </div>
-      </div>
+  {/* LinkedIn */}
+  <div className="bg-black text-white p-2 rounded-lg shadow-lg text-center border-[1px] border-blue-700">
+    <p className="text-sm ">LinkedIn</p>
+    <p className="text-3xl font-bold text-blue-400">1.3K+</p>
+    <p className="text-sm text-gray-300">Conn</p>
+  </div>
+</div>
+
     </div>
   );
 };

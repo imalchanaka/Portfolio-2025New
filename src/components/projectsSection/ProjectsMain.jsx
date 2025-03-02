@@ -5,32 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "HMEM System - MERN Stack.",
+    year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "https://www.appletechsoft.com/wp-content/uploads/2020/06/Hospital-Management-System.jpg",
+    link: "https://github.com/imalchanaka/HMEMS-frontend",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Gate Pass Application",
+    year: "Sept2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwkt9KSUu_DOAveGcVCTw53YZl43kb2K8Ywip8HYbNK_TiagA7Bg8Gxw-Dumt_saSIDw&usqp=CAU",
+    link: "https://github.com/imalchanaka/GatePassMobileApp",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Flora Ordering System",
+    year: "Jan2022",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1fIWWwIZPTAvNxwzxuQ83nj2SfTgy8ab5AA&s",
+    link: "https://github.com/imalchanaka/FloraWebSite",
   },
   {
-    name: "Bank of Luck",
+    name: "CRUD NEXT.js Application",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf101rvA1LktAd3xImpwbtNJOoqOzGwNaj2KGZXpSCpV-ryiyIltHqiGtG5-hJPJ3iykc&usqp=CAU",
+    link: "https://github.com/imalchanaka/GYM_MERN",
   },
 ];
 

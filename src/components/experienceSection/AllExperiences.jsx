@@ -6,8 +6,8 @@ import { fadeIn } from "../../framerMotion/variants";
 const experiences = [
   {
     job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    company: "CEEE",
+    date: "2023 - Present",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
@@ -16,30 +16,32 @@ const experiences = [
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Software Developer",
+    company: "Nippont Paint",
+    date: "2024 - 2025",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Implementing reusable components.",
+      "Participating in large scale application.",
+      "Working on the performance of web applications.",
+      "Generating new ideas for better user experience.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Full Stack Developer",
+    company: "Spil Labs",
+    date: "2025- Present",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Implementing reusable components.",
+      "Participating in large scale application.",
+      "Working on the performance of web applications.",
+      "Generating new ideas for better user experience.",
     ],
   },
 ];
 
 const AllExperiences = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col items-center justify-between">
+    <div className="flex items-center justify-between md:flex-row sm:flex-col">
       {experiences.map((experience, index) => {
         return (
           <>
