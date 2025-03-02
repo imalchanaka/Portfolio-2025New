@@ -3,15 +3,15 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center">
+    <div className="flex flex-col justify-center h-full gap-4 md:text-left sm:text-center">
       <motion.h2
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
+        className="uppercase lg:text-2xl sm:text-xl text-lightGrey "
       >
-        Front-End Web Developer
+        Front-End Web Developerees
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4"
+        className="mt-4 text-lg"
       >
         A Passionate Web Developer and Instructor <br /> with 3 years of
         experience.
